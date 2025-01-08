@@ -1,0 +1,12 @@
+- id: s3fs_genomeark
+  version: 0
+  name: Genome Ark
+  description: |
+    The Genome Ark hosts genomic information for the Vertebrate Genomes Project (VGP) and other related projects.
+    The VGP is an international collaboration that aims to generate complete and near error-free reference genomes for all extant vertebrate species.
+    These genomes will be used to address fundamental questions in biology and disease, to identify species most genetically at risk for extinction,
+    and to preserve genetic information of life.
+  configuration:
+    type: s3fs
+    bucket: genomeark
+    anon: true

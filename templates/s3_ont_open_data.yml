@@ -1,0 +1,9 @@
+- id: s3fs_ont_open_data
+  version: 0
+  name: "Oxford Nanopore Open Datasets"
+  description: |
+    The ont-open-data registry provides reference sequencing data from Oxford Nanopore Technologies to support, 1) Exploration of the characteristics of nanopore sequence data. 2) Assessment and reproduction of performance benchmarks 3) Development of tools and methods. The data deposited showcases DNA sequences from a representative subset of sequencing chemistries. The datasets correspond to publicly-available reference samples (e.g. Genome In A Bottle reference cell lines). Raw data are provided with metadata and scripts to describe sample and data provenance.
+  configuration:
+    type: s3fs
+    bucket: ont-open-data
+    anon: true
