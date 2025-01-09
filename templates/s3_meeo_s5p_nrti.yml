@@ -1,0 +1,18 @@
+- id: s3fs_meeo_s5p_nrti
+  version: 0
+  name: Sentinel-5P Level 2
+description: |
+    This data set consists of observations from the Sentinel-5 Precursor 
+    (Sentinel-5P) satellite of the European Commission’s Copernicus Earth 
+    Observation Programme. Sentinel-5P is a polar orbiting satellite that 
+    completes 14 orbits of the Earth a day. It carries the TROPOspheric 
+    Monitoring Instrument (TROPOMI) which is a spectrometer that senses 
+    ultraviolet (UV), visible (VIS), near (NIR) and short wave infrared 
+    (SWIR) to monitor ozone, methane, formaldehyde, aerosol, carbon monoxide, 
+    nitrogen dioxide and sulphur dioxide in the atmosphere. The satellite was 
+    launched in October 2017 and entered routine operational phase in March 
+    2019. Data is available from July 2018 onwards.
+  configuration:
+    type: s3fs
+    bucket: meeo-s5p/RPRO/
+    anon: true

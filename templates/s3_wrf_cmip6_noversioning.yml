@@ -1,0 +1,9 @@
+- id: s3fs_wrf_cmip6_noversioning
+  version: 0
+  name: CMIP6 GCMs downscaled using WRF
+  description: |
+    High-resolution historical and future climate simulations from 1980-2100
+  configuration:
+    type: s3fs
+    bucket: wrf-cmip6-noversioning
+    anon: true

@@ -1,0 +1,17 @@
+- id: s3fs_meeo_s3_nrt
+  version: 0
+  name: Sentinel-3
+  description: |
+    This data set consists of observations from the Sentinel-3 satellite of the 
+    European Commission’s Copernicus Earth Observation Programme. Sentinel-3 is 
+    a polar orbiting satellite that completes 14 orbits of the Earth a day. It 
+    carries the Ocean and Land Colour Instrument (OLCI) for medium resolution 
+    marine and terrestrial optical measurements, the Sea and Land Surface 
+    Temperature Radiometer (SLSTR), the SAR Radar Altimeter (SRAL), the MicroWave 
+    Radiometer (MWR) and the Precise Orbit Determination (POD) instruments. The 
+    satellite was launched in 2016 and entered routine operational phase in 2017. 
+    Data is available from July 2017 onwards.
+  configuration:
+    type: s3fs
+    bucket: meeo-s3/NRT/
+    anon: true
