@@ -1,0 +1,12 @@
+- id: s3fs_gbif_open_data_eu_central_1
+  version: 0
+  name: GBIF European region public datasets
+  description: |
+    GBIF—the Global Biodiversity Information Facility—is an 
+    international network and data infrastructure funded by 
+    the world's governments and aimed at providing anyone, 
+    anywhere, open access to data about all types of life on Earth.
+  configuration:
+    type: s3fs
+    bucket: gbif-open-data-eu-central-1
+    anon: true

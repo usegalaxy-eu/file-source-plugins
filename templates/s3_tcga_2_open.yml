@@ -1,0 +1,19 @@
+- id: s3fs_tcga_2_open
+  version: 0
+  name: The Cancer Genome Atlas
+  description: |
+    The Cancer Genome Atlas (TCGA), a collaboration between the National Cancer Institute (NCI) and 
+    National Human Genome Research Institute (NHGRI), aims to generate comprehensive, multi-dimensional 
+    maps of the key genomic changes in major types and subtypes of cancer. TCGA has analyzed matched 
+    tumor and normal tissues from 11,000 patients, allowing for the comprehensive characterization of 
+    33 cancer types and subtypes, including 10 rare cancers. The dataset contains open Clinical Supplement, 
+    Biospecimen Supplement, RNA-Seq Gene Expression Quantification, miRNA-Seq Isoform Expression Quantification, 
+    miRNA Expression Quantification, Genotyping Array Copy Number Segment, Genotyping Array Masked Copy Number Segment, 
+    Genotyping Array Gene Level Copy Number Scores, and WXS Masked Somatic Mutation data from Genomic Data Commons (GDC). 
+    This dataset also contains controlled Whole Exome Sequencing (WXS), RNA-Seq, miRNA-Seq, ATAC-Seq Aligned Reads, 
+    WXS Annotated Somatic Mutation, WXS Raw Somatic Mutation, and WXS Aggregated Somatic Mutation data from GDC. 
+    TCGA is made available on AWS via the NIH STRIDES Initiative.
+  configuration:
+    type: s3fs
+    bucket: tcga-2-open
+    anon: true

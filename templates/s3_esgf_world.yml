@@ -1,0 +1,9 @@
+- id: s3fs_esgf_world
+  version: 0
+  name: Coupled Model Intercomparison Project 6
+  description: |
+    The sixth phase of global coupled ocean-atmosphere general circulation model ensemble.
+  configuration:
+    type: s3fs
+    bucket: esgf-world
+    anon: true

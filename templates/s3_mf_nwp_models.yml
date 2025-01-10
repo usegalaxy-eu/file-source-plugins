@@ -1,0 +1,14 @@
+- id: s3fs_mf_nwp_models
+  version: 0
+  name: Atmospheric Models from Météo-France
+  description: |
+    Global and high-resolution regional atmospheric models from Météo-France.
+    ARPEGE World covers the entire world at a base horizontal resolution of 0.5° (~55km) between grid points, it predicts weather out up to 114 hours in the future.
+    ARPEGE Europe covers Europe and North-Africa at a base horizontal resolution of 0.1° (~11km) between grid points, it predicts weather out up to 114 hours in the future.
+    AROME France covers France at a base horizontal resolution of 0.025° (~2.5km) between grid points, it predicts weather out up to 42 hours in the future.
+    AROME France HD covers France and neighborhood at a base horizontal resolution of 0.01° (~1.5km) between grid points, it predicts weather out up to 42 hours in the future.
+    Dozens of atmospheric variables are available through this datase: temperatures, winds, precipitation...Our work is based on open-data from Météo-France, but we are not affiliated or endorsed by Météo-France.
+  configuration:
+    type: s3fs
+    bucket: mf-nwp-models
+    anon: true
