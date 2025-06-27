@@ -1,5 +1,7 @@
 # This file can be used to enable file_sources for ALL users by default.
 
+## Public S3 repositories
+
 - type: s3fs
   label: Genome Ark
   id: genomeark
@@ -118,3 +120,36 @@
   doc: Argo is an international program to observe the interior of the ocean with a fleet of profiling floats drifting in the deep ocean currents (https://argo.ucsd.edu). 
   bucket: argo-gdac-sandbox
   anon: true
+
+## Public FTP repositories
+
+- type: ftp
+  id: ebi-ftp
+  label: "EBI FTP server"
+  doc: "European Bioinformatic Institute FTP server"
+  host: "ftp.ebi.ac.uk"
+  user: "anonymous"
+  passwd: ""
+  timeout: 10
+  port: 21
+
+- type: ftp
+  id: ncbi-ftp
+  label: "NCBI FTP server"
+  doc: "NCBI FTP server"
+  host: "ftp.ncbi.nlm.nih.gov"
+  user: "anonymous"
+  passwd: ""
+  timeout: 10
+  port: 21
+
+- type: ftp
+  id: ensembl-ftp
+  label: "ENSEMBL FTP server"
+  doc: "ENSEMBL FTP server"
+  host: "ftp.ensemblgenomes.org/vol1/pub/"
+  user: "anonymous"
+  passwd: ""
+  timeout: 10
+  port: 21
+
