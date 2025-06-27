@@ -227,6 +227,20 @@
   label: "United Nations Library Vienna"
   url: https://unov.tind.io/
 
+## Public Dataverse repositories
+
+- type: dataverse
+  id: heidata
+  doc: "Heidelberg University Dataverse instance"
+  label: "HeiDATA"
+  url: https://heidata.uni-heidelberg.de/
+
+- type: dataverse
+  id: dataverse_harvard
+  doc: "Harvard Dataverse Repository"
+  label: "Publishing your data and code in the Harvard Dataverse Repository"
+  url: https://dataverse.harvard.edu/
+
 
 
 ## Public OneData repository
