@@ -153,3 +153,88 @@
   timeout: 10
   port: 21
 
+## Public Invenio repositories
+
+- type: inveniordm
+  id: zenodo
+  doc: Zenodo is an open-access digital repository created by CERN (the European Organization for Nuclear Research) to enable researchers to share, preserve, and cite research outputs across various disciplines.
+  label: Zenodo
+  url: https://zenodo.org
+
+- type: inveniordm
+  id: berd_nfdi
+  doc: "A Single Place for Data in Business, Economics and Related Fields"
+  label: "BERD@NFDI Repository"
+  url: https://berd-platform.de
+
+- type: inveniordm
+  id: b2share_eudat
+  doc: "Store and publish your research data with EUDAT"
+  label: "EUDAT Invenio Repository"
+  url: https://b2share.eudat.eu
+
+- type: inveniordm
+  id: psifiothiki
+  doc: "A.U.Th library and Information Center rare library books and collections, archival material, grey literature and institutional publications."
+  label: "Aristotle University of Thessaloniki - Psifiothiki"
+  url: https://digital.lib.auth.gr
+
+- type: inveniordm
+  id: cds_cern
+  doc: "CERN official repository for publications, articles, reports and multimedia content in HEP."
+  label: "CERN Document Server"
+  url: https://cds.cern.ch/
+
+- type: inveniordm
+  id: juser
+  doc: "Jülich Shared Electronic Resources (JuSER) lists scientific publications by employees of Forschungszentrum Jülich and provides open access to a many of these publications."
+  label: "JuSER"
+  url: https://juser.fz-juelich.de/
+
+- type: inveniordm
+  id: kulturarchiv_ch
+  doc: "Upper Engadine Cultural Archives, Switzerland"
+  label: "Kulturarchiv Oberengadin"
+  url: http://search.kulturarchiv.ch/
+
+- type: inveniordm
+  id: ohchr
+  doc: "The office of the United Nations High Commissioner for Human Rights oversees major programs in protecting human rights. Includes activities, publications and media centre."
+  label: "OHCHR"
+  url: https://searchlibrary.ohchr.org/
+
+- type: inveniordm
+  id: infn_openaccessrepository
+  doc: "an initiative supported by the DCH-RP (Digital Cultural Heritage - Roadmap for Preservation)"
+  label: "INFN Open Access Repository"
+  url: https://www.openaccessrepository.it/
+
+- type: inveniordm
+  id: wfp_tind
+  doc: "The World Food Programme is the world's largest humanitarian agency fighting hunger worldwide."
+  label: "World Food Programme"
+  url: https://wfp.tind.io/
+
+- type: inveniordm
+  id: tugraz_invenio
+  doc: "TU Graz Repository is the institutional research data repository for TU Graz"
+  label: "TU Graz Repository"
+  url: https://repository.tugraz.at
+
+- type: inveniordm
+  id: unov_tind
+  doc: "The United Nations Office at Vienna (UNOV)"
+  label: "United Nations Library Vienna"
+  url: https://unov.tind.io/
+
+
+
+## Public OneData repository
+
+- type: onedata
+  id: gtn_public_onedata
+  label: GTN training data
+  doc: Training data from the Galaxy Training Network (powered by Onedata)
+  # The access Token is public and can be shared
+  access_token: "MDAxY2xvY2F00aW9uIGRhdGFodWIuZWdpLmV1CjAwNmJpZGVudGlmaWVyIDIvbm1kL3Vzci00yNmI4ZTZiMDlkNDdjNGFkN2E3NTU00YzgzOGE3MjgyY2NoNTNhNS9hY3QvMGJiZmY1NWU4NDRiMWJjZGEwNmFlODViM2JmYmRhNjRjaDU00YjYKMDAxNmNpZCBkYXRhLnJlYWRvbmx5CjAwNDljaWQgZGF00YS5wYXRoID00gTHpaa1pUTTROMkl4WmpjMllXVmpOMlU00WWpreU5XWmtNV00ZpT1RKbU1ETXlZMmhoWTJReAowMDJmc2lnbmF00dXJlIIQvnXp01Oey02LnaNwEkFJAyArzhHN8SlXSYFsBbSkqdqCg"
+  onezone_domain: "datahub.egi.eu"
