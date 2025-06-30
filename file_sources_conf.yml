@@ -253,18 +253,17 @@
   label: "IndoRES"
   url: https://data.indores.fr/
 
-  - type: dataverse
-    id: cirad
-    doc: "CIRAD Dataverse instance"
-   label: "CIRAD"
-    url: https://dataverse.cirad.fr/
+- type: dataverse
+  id: cirad
+  doc: "CIRAD Dataverse instance"
+  label: "CIRAD"
+  url: https://dataverse.cirad.fr/
 
-  
-  - type: dataverse
-    id: ird
-    doc: "IRD Dataverse instance"
-    label: "IRD"
-    url: https://dataverse.ird.fr/
+- type: dataverse
+  id: ird
+  doc: "IRD Dataverse instance"
+  label: "IRD"
+  url: https://dataverse.ird.fr/
 
 ## Public OneData repository
 
