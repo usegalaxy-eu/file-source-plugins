@@ -277,7 +277,7 @@
   token: ''
   public_name: ''
 
- - type: dataverse
+- type: dataverse
   id: bsc
   doc: "BSC Dataverse instance"
   label: "BSC"
