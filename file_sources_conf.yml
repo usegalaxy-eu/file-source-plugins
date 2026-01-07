@@ -282,6 +282,8 @@
   doc: "BSC Dataverse instance"
   label: "BSC"
   url: https://dataverse.bsc.es/ 
+  token: ''
+  public_name: ''
 
 ## Public OneData repository
 
