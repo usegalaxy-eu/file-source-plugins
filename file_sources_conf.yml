@@ -265,6 +265,12 @@
   label: "IRD"
   url: https://dataverse.ird.fr/
 
+ - type: dataverse
+  id: bsc
+  doc: "BSC Dataverse instance"
+  label: "BSC"
+  url: https://dataverse.bsc.es/ 
+
 ## Public OneData repository
 
 - type: onedata
